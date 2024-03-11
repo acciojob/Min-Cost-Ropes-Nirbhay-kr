@@ -1,3 +1,7 @@
+
+//************** Solved By Pintush Kumar
+
+
 function mincost(arr)
 { 
 //write your code here
@@ -8,7 +12,7 @@ function mincost(arr)
 	}
 	let ans =0;
 	while(hip.size()>=2){
-		let cst = hip.remove()+hip.remove();
+		let cst = hip.poll()+hip.poll();
 		ans+=cst;
 		hip.add(cst);
 	}
