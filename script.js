@@ -8,7 +8,7 @@ function mincost(arr)
 	}
 	let ans =0;
 	while(hip.size()>=2){
-		let cst = hip.peek()+hip.peek();
+		let cst = hip.remove()+hip.remove();
 		ans+=cst;
 		hip.add(cst);
 	}
