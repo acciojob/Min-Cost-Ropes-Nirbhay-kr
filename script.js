@@ -17,7 +17,6 @@ function mincost(arr)
 		hip.add(cst);
 	}
 	return ans;
-  
 }
 
 module.exports=mincost;
